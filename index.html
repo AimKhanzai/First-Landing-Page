@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance.com</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1200px)" href="phone.css">
+    <link rel="stylesheet" media="screen and (max-width:280px)" href="phone1.css">
+    <script src="https://kit.fontawesome.com/636cc2402a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Code of Navigation Bar -->
+    <nav class="navbar">
+        <div>
+            <h1>Finance</h1>
+        </div>
+        <div class="openmenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainmenu">
+            <li class="list1"><a href="#section1">Home</a></li>
+            <li class="list2"><a href="#section2">Services</a></li>
+            <li class="list5"><a href="#section3">Our Team</a></li>
+            <li class="list6"><a href="#section4">Contact Us</a></li>
+            <div class="closemenu"><i class="fa fa-times"></i></div>
+        </ul>
+    </nav>
+    <!-- Code of Section 1/ Home/ Main heading on background image -->
+    <section id="section1">
+        <h1>Financing Solutons</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, voluptas asperiores illum odio cupiditate
+            nihil facere praesentium dicta minima nemo. Veritatis repudiandae impedit mollitia fuga totam expedita
+            maiores natus eaque</p>
+        <a href="#" target="_blank">
+            <button>
+                Join Now
+            </button>
+        </a>
+    </section>
+    <!-- Code of Section 2 which is Our Services -->
+    <section id="section2">
+        <h1>Our Services</h1>
+        <div id="services">
+            <div class="box1">
+                <img src="img/wallet.png" alt="Finance.com">
+                <h2 class="heading">Business Consulting</h2>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, facere eaque,
+                    cupiditate, reprehenderit a quidem eum accusamus autem quia commodi.</p>
+                <a class="learn" href="#">Learn More</a>
+            </div>
+            <div class="box2">
+                <img src="img/black-simple-credit-card-template-white-background-vector-illustration_175838-2158.jpg"
+                    alt="Finance.com">
+                <h2 class="heading">Credit Card</h2>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. A officia assumenda blanditiis
+                    praesentium dolorem totam excepturi labore! Eos et veritatis.
+                </p>
+                <a class="learn" href="#">Learn More</a>
+            </div>
+            <div class="box3">
+                <img src="img/income.jpg" alt="Finance.com">
+                <h2 class="heading">Income Monitoring</h2>
+                <p class="para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque, architecto! Omnis
+                    minus beatae unde iure, voluptatem est minima sequi voluptate.</p>
+                <a class="learn" href="#">Learn More</a>
+            </div>
+        </div>
+
+    </section>
+    <!-- Code of Section 3 which is Meet Team -->
+    <section id="section3">
+        <h3>Meet Team</h3>
+        <p id="para2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta atque dolor odio labore corrupti
+            repellendus vero repudiandae maxime? Lorem, ipsum dolor </p>
+        <div id="team" class="boxes">
+            <div class="box4">
+                <img src="img/pexels-italo-melo-2379004.jpg" alt="Finance.com">
+                <h4>Alex Wimber</h4>
+                <p class="para">Accountant</p>
+            </div>
+            <div class="box5">
+                <img src="img/pexels-pixabay-220453.jpg" alt="Finance.com">
+                <h4>Mark Daniel</h4>
+                <p class="para">Bank Teller</p>
+            </div>
+            <div class="box6">
+                <img src="img/pexels-vinicius-wiesehofer-1130626.jpg" alt="Finance.com">
+                <h4>Isla Jasmin</h4>
+                <p class="para">Bank Teller</p>
+            </div>
+        </div>
+    </section>
+    <!-- Code of Section 4 which is Contact Us -->
+    <section id="section4">
+        <h3>Contact Us</h3>
+        <div id="form">
+            <form action="/myaction.php" name="myform" onsubmit="return validateform()" method="post">
+                <div class="details">
+                    <div id="name">
+                        <span>First Name</span>
+                        <input type="text" name="fname" required><span class="formerror"></span>
+                    </div>
+                    <div>
+                        <span>Last Name</span>
+                        <input type="text" name="lname"><span class="formerror"></span>
+                    </div>
+                    <div  id="email">
+                        <span>Email</span>
+                        <input type="email" name="femail" required><span class="formerror"></span>
+                    </div>
+                    <div  id="phone">
+                        <span>Phone</span>
+                        <input type="phone" name="fphone" required><span class="formerror"></span>
+                    </div>
+                    <div>
+                        <span>Message</span>
+                        <textarea name="message" id="msg" class="msg" cols="30" rows="5" required></textarea>
+                    </div>
+                </div>
+            </form>
+            <div class="btn">
+                <input type="submit" value="submit">
+            </div>
+        </div>
+        <!-- <div id="contact">
+            <div class="box7">
+                <i class="fa fa-map-marker" style="font-size: 34px;"></i>
+                <p class="para">203 Fake St. Mountain View, San Francisco, California, USA</p>
+            </div>
+            <div class="box8">
+                <i class="fa fa-phone" style="font-size: 34px;"></i>
+                <a href="#">
+                    <p>+1 232 3235 324</p>
+                </a>
+            </div>
+            <div class="box9">
+                <i class="fa fa-envelope" style="font-size: 34px;"></i>
+                <a href="#">
+                    <p>youremail@domain.com</p>
+                </a>
+            </div>
+        </div> -->
+    </section>
+    <!-- Code of Footer in which Copyright is Given -->
+    <footer class="footer">
+        <div id="foot">
+            <p class="para"> Copyright &copy; All rights reserved | Finance.com</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>

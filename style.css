@@ -1,0 +1,408 @@
+/* Universal Code for Whole Page */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Code of Navigation Bar */
+.navbar {
+    display: flex;
+    /* align-content: flex-end; */
+    position: sticky;
+    align-items: center;
+    height: 80px;
+    top: 0px;
+    left: 0px;
+    /* color: aliceblue; */
+    /* border-bottom: 0.5px solid rgba(0,0,0,0.2) ; */
+    /* border: 2px solid red; */
+}
+
+.navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    opacity: 0.3;
+    width: 100%;
+    z-index: -1;
+}
+
+.navbar h1 {
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 50px;
+    font-size: 45px;
+    color: aliceblue;
+}
+
+.navbar ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: 50px;
+    padding: 13px;
+}
+
+.navbar ul li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: aliceblue;
+}
+
+.navbar ul li a:hover {
+    color: #007bff;
+    opacity: 0.5;
+}
+
+/* Code of Section 1/ Home/ Main heading on background image */
+#section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 3px 200px;
+    height: 600px;
+}
+
+#section1::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.5) url('img/us.jpg') no-repeat center center/cover;
+    height: 686px;
+    background-blend-mode: darken;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+}
+
+#section1 h1 {
+    text-align: center;
+    font-size: 4rem;
+    padding: 2px;
+    color: aliceblue;
+}
+
+#section1 p {
+    text-align: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    padding: 3px;
+    color: aliceblue;
+}
+
+#section1 button {
+    font-size: 25px;
+    border-radius: 50px;
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    padding: 10px;
+    width: 170px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Code of Section 2 which is Our Services */
+#section2 {
+    /* border: 2px solid red; */
+    /* margin: 20px; */
+    padding: 45px;
+    background-color: aliceblue;
+}
+
+#section2 h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #007bff;
+}
+
+#services {
+    display: flex;
+}
+
+#services .box1 {
+    /* border: 2px solid red; */
+    padding: 25px;
+    margin: 30px;
+}
+
+#services .box1 img {
+    margin: 2px;
+    padding: 5px;
+    height: 60px;
+}
+
+#services .heading {
+    padding: 5px;
+    text-align: left;
+}
+
+#services .para {
+    padding: 4px;
+    color: gray;
+    text-align: left;
+}
+
+#services .learn {
+    text-decoration: none;
+    padding: 3px;
+    text-align: left;
+    color: #007bff;
+}
+
+#services a:hover {
+    color: rgb(8, 8, 161);
+}
+
+#services .box2 {
+    /* border: 2px solid red; */
+    padding: 25px;
+    margin: 30px;
+}
+
+#services .box2 img {
+    margin: 2px;
+    padding: 5px;
+    height: 60px;
+}
+
+#services .box3 {
+    /* border: 2px solid red; */
+    padding: 25px;
+    margin: 30px;
+}
+
+#services .box3 img {
+    margin: 2px;
+    padding: 5px;
+    height: 60px;
+}
+
+/* Code of Section 3 which is Meet Team  */
+#section3 {
+    /* border: 2px solid red; */
+    /* margin: 20px; */
+    padding: 80px;
+    background-color: floralwhite
+}
+
+#team {
+    display: flex;
+}
+
+#section3 h3 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #007bff;
+}
+
+#para2 {
+    text-align: center;
+    color: gray;
+}
+
+.box4 img {
+    height: 400px;
+}
+
+.box5 img {
+    height: 400px;
+}
+
+.box6 img {
+    height: 400px;
+}
+
+.box4 {
+    /* border: 2px solid red; */
+    margin: 40px;
+    padding: 20px;
+}
+
+.box5 {
+    margin: 40px;
+    padding: 20px;
+    /* border: 2px solid red; */
+}
+
+.box6 {
+    margin: 40px;
+    padding: 20px;
+    /* border: 2px solid red; */
+}
+
+/* Code of Section 4 which is Contact Us  */
+#section4 {
+    /* border: 2px solid red; */
+    /* margin: 20px; */
+    padding: 50px;
+    height: 650px;
+    background-color: azure;
+}
+
+#section4 h3 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #007bff;
+}
+
+/* #contact{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+#contact p{
+    text-align: center;
+    padding: 13px;
+}
+#contact a{
+    /* text-align: center; */
+/* text-decoration: none;
+    color: #007bff;
+    /* padding: 13px; */
+/*} 
+#contact a:hover{
+    color: rgb(8, 8, 161);
+}
+.box7{
+    /* border: 2px solid red; */
+/*  text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 3px 22px;
+    width: 293px;
+}
+.box8{
+    /* border: 2px solid red; */
+/*text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 3px 22px;
+    width: 293px;
+}
+.box9{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid red; */
+/*margin: 15px;
+    padding: 3px 22px;
+    width: 293px;
+} */
+/* Code of Footer in which Copyright is Given */
+.footer {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: #343a40;
+    height: 120px;
+    /* border: 2px solid red; */
+}
+
+#foot {
+    display: block;
+    margin: auto;
+}
+
+#foot p {
+    text-align: center;
+    margin: 40px;
+    padding: 5px;
+}
+
+/*Code of Utility Classes */
+.fa {
+    color: #007bff;
+}
+
+.para {
+    color: gray;
+}
+
+nav .openmenu {
+    font-size: 30px;
+    margin: 20px;
+    display: none;
+    cursor: pointer;
+}
+
+nav .closemenu {
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+}
+
+.openmenu .fa {
+    color: white;
+}
+
+.closemenu .fa {
+    color: white;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.details span {
+    font-size: 20px;
+    padding-bottom: 10px;
+    display: block;
+}
+
+#form {
+    max-width: 1000px;
+    width: 800px;
+    padding-top: 30px;
+    margin-left: 70px;
+}
+
+.details input {
+    height: 35px;
+    border-radius: 10px;
+    border-color: #007bff;
+    border-image-width: auto;
+    width: -webkit-fill-available;
+}
+.msg{
+    border-radius: 10px;
+    border-color: #007bff;
+}
+.btn input{
+    font-size: 25px;
+    border-radius: 50px;
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+    cursor: pointer;
+    margin: 20px 0px;
+    height: 50px;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    justify-content: center;
+}
+.error{
+    color: red;
+}
+#msg{
+    border-image-width: auto;
+    width: -webkit-fill-available;
+}
